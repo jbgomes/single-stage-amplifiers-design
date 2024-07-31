@@ -22,8 +22,8 @@ In this report, the design of single-stage amplifiers is found: common-source, c
 ## Cascode
 
 ## Conclusion
+![image](https://github.com/user-attachments/assets/d94799eb-3e23-4aad-bfcb-bbbc139010d7)
 
-![image](https://github.com/user-attachments/assets/e65428fa-95f1-428f-ba59-dd37a310ba73)
 
 ## References
 [1] RAZAVI, B. Design of analog CMOS integrated circuits. Tsinghua University Press Co., Ltd., 2005
