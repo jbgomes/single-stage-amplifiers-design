@@ -1,5 +1,5 @@
 # Single-Stage Amplifiers Design
-In this report, the design of single-stage amplifiers is found: common-source, common-gate, source followers and cascode. The design was developed using the $g_m/I_d$ method, which is organized in the spreadsheet. The simulation results can be viewed below and in the images.
+In this report, the design of single-stage amplifiers is found: common-source, common-gate, source followers and cascode. The design was developed using the $g_m/I_d$ method, which is organized in the spreadsheet. The simulation results can be viewed in the images below.
 
 ## Common-source with resistive load
 
