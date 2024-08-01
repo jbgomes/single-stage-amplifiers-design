@@ -22,14 +22,15 @@ In this report, the design of single-stage amplifiers is found: common-source, c
 ## Cascode
 
 ## Conclusion
-![image](https://github.com/user-attachments/assets/d94799eb-3e23-4aad-bfcb-bbbc139010d7)
-
+![image](https://github.com/user-attachments/assets/e7113f30-762d-4407-b391-d8a309b2f008)
 
 ## References
 [1] RAZAVI, B. Design of analog CMOS integrated circuits. Tsinghua University Press Co., Ltd., 2005
 
-[2] Possani, Tanísia, et al. "Application of gm/id methodology for analog design using nanometer-scale devices." XXVIII—South symposium of microelectronics—SIM. 2013.
+[2] POSSANI, T., et al. "Application of gm/id methodology for analog design using nanometer-scale devices." XXVIII—South symposium of microelectronics—SIM. 2013.
 
 [3] Electronic Echoes. (Feb 10, 2024). Design of a CMOS Common Source Amplifier using Gm/Id Methodology in Cadence Virtuoso. [Video]. YouTube. https://www.youtube.com/watch?v=rE4TcO9IqR8&t=1s.
 
 [4] Mastering Microelectronics. (Dec 17, 2020). The gm/ID Design Methodology Demystified (English). [Video]. YouTube. https://www.youtube.com/watch?v=dzz4z3ijVts.
+
+[5] TIWARI, A. Design of MOS Amplifiers Using gm/ID Methodology. [Slides]. https://designers-guide.org/forum/Attachments/Gm_BY_ID_Methodology.pdf.
