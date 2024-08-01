@@ -1,28 +1,24 @@
-# Single-Stage Amplifiers Design
-In this report, the design of single-stage amplifiers is found: common-source, common-gate, source followers and cascode. The design was developed using the $g_m/I_d$ method, which is organized in the spreadsheet. The simulation results can be viewed in the images below.
+# Design of Common-Source Stage with Resistive Load
+The design of Common-Source Stage with Resistive Load is found in this report. The design was developed using the $g_m/I_d$ method, which is organized in the spreadsheet. The simulation results can be viewed in the images below.
 
-## Common-source with resistive load
-
-### Testbench
+## Testbench
 ![image](https://github.com/user-attachments/assets/d4d90ffc-6320-4999-a0b5-d5f854a6c7ee)
 
-### Schematic
+## Schematic
 ![image](https://github.com/user-attachments/assets/6609504b-7315-4283-a1cf-bfb843cf4ff3)
 
-### Design variables
-![image](https://github.com/user-attachments/assets/3e8742df-d7d8-4594-8efa-1b081148583e)
+## Design Variables
+![image](https://github.com/user-attachments/assets/5407e4ef-3661-41ca-ba50-8a1bdb347532)
 
-### Simulation result
-![image](https://github.com/user-attachments/assets/99fd0e39-1c86-4e21-8974-00a44e636974)
+## Simulation Results
+When $V_{in}$ is high, $V_{out}$ is low, $M_1$ is in the triode region, and $g_m$ assumes a small value. As $V_{in}$ falls and $V_{out}$ and $g_m$ rise, $M_1$ enters saturation when $V_{in} - V_{out} = V_{TH}$ and $g_m$ reaches its maximum. As $V_{in}$ falls further, so do $I_D$ and $g_m$. When $V_{in}$ is low, $g_m$ reaches zero.
 
-## Common-gate
+![image](https://github.com/user-attachments/assets/7d0e354d-1690-4295-82b2-6177232ec4ec)
 
-## Source followers
-
-## Cascode
+For large values of $R_D$, the effect of channel-lenght modulation in $M_1$ becomes significant. To maximize the voltage gain, we must mazimize (small-signal) the load impedance. Why can we not replace the load with an open circuit because the circuit still needs a path from $V_{DD}$ to ground for the bias current of $M_1$. 
 
 ## Conclusion
-![image](https://github.com/user-attachments/assets/e7113f30-762d-4407-b391-d8a309b2f008)
+![image](https://github.com/user-attachments/assets/7eea9f0f-090f-4513-9945-5365f294c28a)
 
 ## References
 [1] RAZAVI, B. Design of analog CMOS integrated circuits. Tsinghua University Press Co., Ltd., 2005
